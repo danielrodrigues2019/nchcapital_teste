@@ -81,7 +81,7 @@ const tool = {
   //API DATA FEEDING THE CHART
   data: () => {
     $.ajax({
-      url: 'https://api.marketstack.com/v1/eod',
+      url: 'http://api.marketstack.com/v1/eod',
       data: {
         access_key: '08e5d375bdea49faac181d60779a64fe',
         symbols: 'AAPL',
