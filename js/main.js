@@ -83,6 +83,7 @@ const tool = {
     $.ajax({
       url: 'http://api.marketstack.com/v1/eod',
       data: {
+        //ALTERAR SUA KEY AQUI
         access_key: '08e5d375bdea49faac181d60779a64fe',
         symbols: 'AAPL',
         date_from: $('#initial-date').val(),
